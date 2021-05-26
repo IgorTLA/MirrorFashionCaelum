@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+}
+
+.mirrorf {
+    background-image: url(../img/sobre-background.jpg);
+    padding: 10px;
+}
+
+.texts h2 {
+    border-bottom: 2px solid #333333;
+    margin-top: 30px;
+}
+
+.texts p {
+    padding: 0 45px;
+    text-indent: 15px;
+    text-align: justify;
+}
+
+p::first-letter {
+    font-weight: bold;
+}
+
+/* p::first-line {
+    font-variant: small-caps;
+} */
+
+h1 + p {
+    text-indent: 0;
+}
+
+figure {
+    background-color: #f2eded;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+#centro-distribucao {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+#familia-pelho {
+    float: right;
+    margin: 0 0 10px 10px;
+}
